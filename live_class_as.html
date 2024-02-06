@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live assignment</title>
+    <style>
+        p {
+            text-align: center;
+        }
+
+        .main {
+            border: 5px solid black;
+            height: 40vw;
+            text-align: center;
+        }
+
+        .head {
+            border: 2px solid black;
+            margin: 1%;
+        }
+
+        .side {
+            border: 2px solid black;
+            float: left;
+            height: 75%;
+            margin-left: 1%;
+            width: fit-content;
+            display: flex;
+            align-items: center;
+        }
+
+        .article {
+            border: 2px solid black;
+            width: 87%;
+            height: 75%;
+            float: right;
+            margin-right: 1%;
+
+        }
+
+        .inner {
+            border: 8px solid black;
+            margin: 2%;
+            height: 78%;
+            padding: 1vw;
+        }
+
+        td,
+        th {
+            border: 3px solid black;
+        }
+
+        table {
+            width: 100%;
+            height: 100%;
+            /* gap: 10px 20px; */
+            border-collapse: separate;
+            border-spacing: 15px;
+        }
+        .a{
+            vertical-align: top;
+            text-align: left;
+        }
+        .b{
+            text-align: left; 
+        }
+        .c{
+            vertical-align: bottom;
+            text-align: left;
+        }
+        .d{
+            vertical-align: top;
+            text-align: center;
+        }
+        .e{
+            vertical-align: bottom;
+        }
+        .f{
+            vertical-align: top;
+            text-align: right;
+        }
+        .g{
+            text-align: right;
+
+        }
+        .h{
+            vertical-align: bottom;
+            text-align: right;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <p>Horizontal and Vertical Alignment</p>
+    <div class="main">
+        <div class="head">
+            <h2>Cell Alignment With CSS</h2>
+        </div>
+        <div class="side">
+            <h2>Examples</h2>
+        </div>
+        <div class="article">
+
+            <div class="inner">
+                <table>
+                    <tr>
+                        <th>Row</th>
+                        <th>Cell-1</th>
+                        <th>cell-2</th>
+                        <th>cell-3</th>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td class="a">CSS</td>
+                        <td class="b">CSS</td>
+                        <td class="c">CSS</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="d">CSS</td>
+                        <td >CSS</td>
+                        <td class="e">CSS</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="f">CSS</td>
+                        <td class="g">CSS</td>
+                        <td class="h">CSS</td>
+                    </tr>
+
+                </table>
+
+            </div>
+            <h3>Nested Table</h3>
+        </div>
+    </div>
+</body>
+
+</html>
